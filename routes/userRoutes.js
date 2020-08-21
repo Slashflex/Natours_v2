@@ -10,7 +10,7 @@ const {
   getAllUsers,
   updateUser,
   deleteUser
-} = require('./../controllers/userController');
+} = require('../controllers/userController');
 const {
   signup,
   login,
@@ -20,7 +20,7 @@ const {
   protect,
   updatePassword,
   restrictTo
-} = require('./../controllers/authController');
+} = require('../controllers/authController');
 
 const router = express.Router();
 
