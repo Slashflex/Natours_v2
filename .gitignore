@@ -8,3 +8,4 @@ config.env
 .cache
 
 dev-data/data/users.json
+.idea

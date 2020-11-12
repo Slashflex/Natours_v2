@@ -17,10 +17,7 @@
     "watch:js": "parcel watch ./public/js/index.js --out-dir ./public/js --out-file bundle.js",
     "build:js": "parcel build ./public/js/index.js --out-dir ./public/js --out-file bundle.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Slashflex/Natours_node.js.git"
-  },
+  "repository": "git+https://github.com/Slashflex/Natours_node.js.git",
   "author": "Slashflex",
   "license": "MIT",
   "bugs": {
@@ -45,6 +42,7 @@
     "mongoose": "^5.10.7",
     "morgan": "^1.10.0",
     "multer": "^1.4.2",
+    "node-forge": "^0.10.0",
     "nodemailer": "^6.4.13",
     "pug": "^2.0.4",
     "sharp": "^0.23.4",
@@ -71,6 +69,6 @@
     "prettier": "^1.19.1"
   },
   "engines": {
-    "node": "^12"
+    "node": "^14"
   }
 }
